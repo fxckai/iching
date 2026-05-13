@@ -1,0 +1,22 @@
+{
+  "name": "@fxckai/iching",
+  "version": "1.0.0",
+  "description": "易经占卜与解读 — Claude Code Skill。铁口直断，以卦爻为唯一依据。",
+  "main": "SKILL.md",
+  "files": [
+    "SKILL.md",
+    "scripts/",
+    "README.md"
+  ],
+  "keywords": [
+    "claude-code",
+    "skill",
+    "iching",
+    "易经",
+    "周易",
+    "占卜",
+    "六十四卦",
+    "i-ching"
+  ],
+  "license": "MIT"
+}
