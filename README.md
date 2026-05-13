@@ -14,12 +14,17 @@
 
 ## 安装
 
-1. 将本目录（含 `SKILL.md` 和 `scripts/`）下载到你的项目中。
-2. 对于 **Openclaw**，将整个文件夹放入 `.openclaw/workspace/skills` 目录。  
-   对于其他 AI 工具，请参照其 Skill 导入功能加载。
-3. 在对话中激活该 Skill：
-   - 输入关键词 **"算卦""起卦""易经""周易""六十四卦""I Ching"** 等，部分工具会自动唤起。
-   - 或明确给出指令：`/skill iching` 等。
+**方式一：Claude Code**
+
+```bash
+npx skills add @fxckai/iching
+```
+
+**方式二：下载手动安装**
+
+1. 将本仓库完整下载（含 `SKILL.md` 和 `scripts/`）
+2. 放入你所用 AI 工具的 skills 目录（如 Claude Code 的 `~/.claude/skills/`、Openclaw 的 `.openclaw/workspace/skills/`）
+3. 对话中输入关键词 **"算卦""起卦""易经""周易""I Ching"** 等，或手动 `/iching`
 
 > **依赖**：起卦脚本 `scripts/cast_hexagram.py` 需要 Python 3 环境，无第三方依赖。
 
