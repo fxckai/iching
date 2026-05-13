@@ -14,7 +14,7 @@
 
 ## 安装
 
-**方式一：Claude Code**
+**方式一**
 
 ```bash
 npx skills add @fxckai/iching
